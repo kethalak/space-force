@@ -4,4 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_SpaceForce!/_Scenes/BoltTesting/scenes/Menu.unity
+    guid: 1567b36c01b082e43b2fb50e206dc8d2
+  - enabled: 1
+    path: Assets/_SpaceForce!/_Scenes/BoltTesting/scenes/Level2.unity
+    guid: fe36c38162ead6947a41ac85f68026c6
+  m_configObjects: {}
