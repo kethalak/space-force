@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Melee Pose
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/Pelvis
+    localPosition: {x: 0, y: 3.3, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.63607824, w: 0.77162457}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Arm R
+    localPosition: {x: 2.95642, y: 1.4686606, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.937202, w: 0.34878716}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Arm R/F_Arm  R
+    localPosition: {x: 1.6, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.4771588, w: 0.87881714}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Arm R/F_Arm  R/Gun
+    localPosition: {x: 2.55, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.15988122, w: 0.9871363}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Arm R/F_Arm  R/Sward
+    localPosition: {x: 2.55, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.5570206, w: 0.8304987}
+    localScale: {x: 0.9, y: 1.2, z: 1}
+  - path: Bones/Pelvis/Arm R/Vari 2
+    localPosition: {x: 0, y: -0.6, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Leg R
+    localPosition: {x: -0.65, y: 0.75, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.99999875, w: -0.0015801622}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Leg R/F_Leg R
+    localPosition: {x: 2.1, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.191708, w: 0.981452}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Leg L
+    localPosition: {x: -0.3, y: -1.95, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.8859866, w: 0.46371084}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Leg L/F_Leg L
+    localPosition: {x: 1.75, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.37864247, w: 0.92554307}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Arm L
+    localPosition: {x: 3.65, y: -2, z: 0}
+    localRotation: {x: 0, y: -0, z: 0.99904823, w: -0.043619595}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Arm L/F_Arm L
+    localPosition: {x: 1.7, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.3987491, w: 0.91706014}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Head
+    localPosition: {x: 4.2, y: 0, z: 0}
+    localRotation: {x: 0, y: -0, z: 0.7489559, w: -0.6626199}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Pelvis/Head/Vari 1
+    localPosition: {x: 0, y: 0.6, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}

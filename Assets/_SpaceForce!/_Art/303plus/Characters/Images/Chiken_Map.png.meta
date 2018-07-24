@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: a332222a40cb7d54b85747ddb0c8fb37
+timeCreated: 1491369077
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Chiken_Sward FX
+    21300002: Chiken_Sward
+    21300004: Chiken_Arm R
+    21300006: Chiken_Gun FX
+    21300008: Chiken_Gun
+    21300010: Chiken_Leg R
+    21300012: Chiken_Eye
+    21300014: Chiken_Head
+    21300016: Chiken_Body
+    21300018: Chiken_Leg L
+    21300020: Chiken_Arm L
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chiken_Sward FX
+      rect:
+        serializedVersion: 2
+        x: 1.9558659
+        y: 878.8455
+        width: 342.04413
+        height: 109.66553
+      alignment: 9
+      pivot: {x: 0.5015263, y: 0.5211709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Sward
+      rect:
+        serializedVersion: 2
+        x: 334.83368
+        y: 890.57776
+        width: 456.23248
+        height: 115.42218
+      alignment: 9
+      pivot: {x: 0.5570982, y: 0.5668082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Arm R
+      rect:
+        serializedVersion: 2
+        x: 843.9297
+        y: 766.1677
+        width: 120.701294
+        height: 235.68146
+      alignment: 9
+      pivot: {x: 0.4728227, y: 0.49996415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Gun FX
+      rect:
+        serializedVersion: 2
+        x: 37.845505
+        y: 772.3344
+        width: 210.53432
+        height: 65.97357
+      alignment: 9
+      pivot: {x: 0.24534954, y: 0.48755264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Gun
+      rect:
+        serializedVersion: 2
+        x: 375.91415
+        y: 745.3703
+        width: 430.08585
+        height: 158.6297
+      alignment: 9
+      pivot: {x: 0.5256761, y: 0.55241674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Leg R
+      rect:
+        serializedVersion: 2
+        x: 20.814417
+        y: 407.3338
+        width: 148.71974
+        height: 215.30426
+      alignment: 9
+      pivot: {x: 0.55262053, y: 0.49542075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Eye
+      rect:
+        serializedVersion: 2
+        x: 241.81306
+        y: 413.46927
+        width: 117.74904
+        height: 153.99869
+      alignment: 9
+      pivot: {x: 0.472929, y: 0.49046347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Head
+      rect:
+        serializedVersion: 2
+        x: 497.51834
+        y: 230.77502
+        width: 399.85092
+        height: 549.0294
+      alignment: 9
+      pivot: {x: 0.5007756, y: 0.48420265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Body
+      rect:
+        serializedVersion: 2
+        x: 0.55080414
+        y: 28.146687
+        width: 276.85223
+        height: 255.85332
+      alignment: 9
+      pivot: {x: 0.65178883, y: 0.50753033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Leg L
+      rect:
+        serializedVersion: 2
+        x: 457.35385
+        y: 29.432182
+        width: 117.05051
+        height: 188.45416
+      alignment: 9
+      pivot: {x: 0.5266628, y: 0.48588905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chiken_Arm L
+      rect:
+        serializedVersion: 2
+        x: 761.1794
+        y: 0
+        width: 150.74408
+        height: 227.00058
+      alignment: 9
+      pivot: {x: 0.44990566, y: 0.53303826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

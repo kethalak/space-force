@@ -43,14 +43,14 @@ MonoBehaviour:
     connectionTimeout: 10000
     connectionRequestTimeout: 500
     connectionRequestAttempts: 20
-  debugClientCount: 4
+  debugClientCount: 2
   debugStartPort: 50538
   debugStartMapName: Level2
-  debugPlayAsServer: 1
+  debugPlayAsServer: 0
   showDebugInfo: 1
   overrideTimeScale: 1
   logUncaughtExceptions: 0
-  debugEditorMode: 1
+  debugEditorMode: 2
   consoleToggleKey: 9
   consoleVisibleByDefault: 1
   compilationWarnLevel: 4
@@ -63,7 +63,7 @@ MonoBehaviour:
   masterServerAutoDisconnect: 1
   showBoltEntityHints: 0
   serializeProjectAsText: 0
-  photonAppId: 
+  photonAppId: f7442c06-5e75-400d-a12f-4507983743b2
   photonUsePunch: 1
   photonCloudRegionIndex: 1
   photonUseOnPremise: 0

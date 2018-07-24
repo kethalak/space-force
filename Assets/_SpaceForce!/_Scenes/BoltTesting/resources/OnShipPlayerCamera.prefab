@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 81657474232122860}
   - component: {fileID: 320624900373510494}
   - component: {fileID: 95469309289427100}
-  - component: {fileID: 114403508993073918}
+  - component: {fileID: 114500774669564384}
   m_Layer: 0
   m_Name: OnShipPlayerCamera
   m_TagString: Untagged
@@ -65,7 +65,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.5
+  orthographic size: 2
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -106,7 +106,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114403508993073918
+--- !u!114 &114500774669564384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1980889058956322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa144099f3f9df248b6f22dd8dda1aee, type: 3}
+  m_Script: {fileID: 11500000, guid: 41485dbf09a76454a89659ece71f2a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!124 &124483851196872978

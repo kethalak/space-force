@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 9e4efe931fa3da04abe489653fbab366
+timeCreated: 1491375169
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Monkey_Sward FX
+    21300002: Monkey_Sward
+    21300004: Monkey_Arm R
+    21300006: Monkey_Gun FX
+    21300008: Monkey_Gun
+    21300010: Monkey_Leg R
+    21300012: Monkey_Eye
+    21300014: Monkey_Head
+    21300016: Monkey_Body
+    21300018: Monkey_Leg L
+    21300020: Monkey_Arm L
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monkey_Sward FX
+      rect:
+        serializedVersion: 2
+        x: 1.9558659
+        y: 878.8455
+        width: 342.04413
+        height: 109.66553
+      alignment: 9
+      pivot: {x: 0.5015263, y: 0.5211709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Sward
+      rect:
+        serializedVersion: 2
+        x: 335.3249
+        y: 891.1555
+        width: 455.74127
+        height: 114.97272
+      alignment: 9
+      pivot: {x: 0.5566209, y: 0.5639989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Arm R
+      rect:
+        serializedVersion: 2
+        x: 843.9297
+        y: 766.1677
+        width: 120.701294
+        height: 235.68146
+      alignment: 9
+      pivot: {x: 0.4728227, y: 0.49996415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Gun FX
+      rect:
+        serializedVersion: 2
+        x: 37.845505
+        y: 772.3344
+        width: 210.53432
+        height: 65.97357
+      alignment: 9
+      pivot: {x: 0.24534954, y: 0.48755264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Gun
+      rect:
+        serializedVersion: 2
+        x: 375.91415
+        y: 745.3703
+        width: 430.08585
+        height: 158.6297
+      alignment: 9
+      pivot: {x: 0.5256761, y: 0.55241674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Leg R
+      rect:
+        serializedVersion: 2
+        x: 20.218115
+        y: 404.19067
+        width: 149.31606
+        height: 218.44739
+      alignment: 9
+      pivot: {x: 0.5544071, y: 0.5026809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Eye
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 461
+        width: 156
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48171353, y: 0.55146337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Head
+      rect:
+        serializedVersion: 2
+        x: 538.8202
+        y: 329.45618
+        width: 407.72363
+        height: 421.57306
+      alignment: 9
+      pivot: {x: 0.40656832, y: 0.52693194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Body
+      rect:
+        serializedVersion: 2
+        x: 38.789253
+        y: 28.146687
+        width: 238.6138
+        height: 255.85332
+      alignment: 9
+      pivot: {x: 0.59598714, y: 0.50753033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Leg L
+      rect:
+        serializedVersion: 2
+        x: 457.35385
+        y: 21.053144
+        width: 116.827484
+        height: 196.8332
+      alignment: 9
+      pivot: {x: 0.5276682, y: 0.50777435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Monkey_Arm L
+      rect:
+        serializedVersion: 2
+        x: 761.1794
+        y: 0
+        width: 150.74408
+        height: 227.00058
+      alignment: 9
+      pivot: {x: 0.44990566, y: 0.53303826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
