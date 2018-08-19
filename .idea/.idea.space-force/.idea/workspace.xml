@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ed1aab-a17f-490b-88ed-0f75599db437" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.space-force/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    <list default="true" id="f2ed1aab-a17f-490b-88ed-0f75599db437" name="Default" comment="Add test attractor and update physics code (part of 2)">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.space-force/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.space-force/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anima2D/Examples/Robot/Animations/RobotAnimatorController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anima2D/Examples/Robot/Animations/RobotAnimatorController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anima2D/Examples/UnityChan/Animations/Unity chan.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anima2D/Examples/UnityChan/Animations/Unity chan.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Animation/2dCharacterAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Animation/2dCharacterAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/AdobeStock_123508533.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/AdobeStock_123508533.jpeg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/_Textures/Flame.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/_Textures/Flame.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceForcePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceForcePlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceforceCadet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceforceCadet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bolt/resources/BoltPrefabDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/resources/BoltPrefabDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bolt/resources/BoltRuntimeSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/resources/BoltRuntimeSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/bolt.user.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/bolt.user.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/browscap.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,130 +58,178 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BoltInit.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1530535293000" expanded="false" signature="6:107" ph="..." />
-                <marker date="1530535293000" expanded="true" signature="158:3412" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="217:491" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="304:373" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="418:485" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="507:640" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="762:840" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="858:1485" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="1111:1449" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="1528:1601" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="1641:1928" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="1827:1886" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="1958:2160" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2000:2057" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2093:2154" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2188:2524" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2249:2518" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2323:2508" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2378:2494" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2554:2688" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2718:2812" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2848:2958" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="2999:3409" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="3038:3330" ph="{...}" />
-                <marker date="1530535293000" expanded="true" signature="3343:3403" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/PlayerController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1530729235407" expanded="true" signature="6:78" ph="..." />
-                <marker date="1530729235407" expanded="true" signature="125:642" ph="{...}" />
-                <marker date="1530729235407" expanded="true" signature="186:640" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerCallbacks.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding>
-                <marker date="1530733900844" expanded="true" signature="6:47" ph="..." />
-                <marker date="1530733900844" expanded="true" signature="136:380" ph="{...}" />
-                <marker date="1530733900844" expanded="true" signature="192:378" ph="{...}" />
-                <marker date="1530733900844" expanded="true" signature="217:339" ph="/* this just instantiates our player camera, ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoltSingletonPrefab`1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e7/b0384ca7/BoltSingletonPrefab`1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnShipPlayerCamera.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-              <folding>
-                <marker date="1530734209986" expanded="true" signature="6:107" ph="..." />
-                <marker date="1530734209986" expanded="true" signature="183:188" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerCamera.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-              <folding>
-                <marker date="1530535292000" expanded="true" signature="51:3411" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="117:3408" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="780:832" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="963:1038" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1060:1092" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1135:2218" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1156:2214" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1408:1491" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1431:1485" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1511:1564" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1624:1707" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="1946:2044" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="2263:2327" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="2439:2526" ph="{...}" />
-                <marker date="1530535292000" expanded="true" signature="2651:3405" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.39786157">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="PlayerCallbacks.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerCallbacks.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <marker date="1533256507891" expanded="true" signature="107:526" ph="{...}" />
+                    <marker date="1533256507891" expanded="true" signature="163:330" ph="{...}" />
+                    <marker date="1533256507891" expanded="true" signature="169:291" ph="/* this just instantiates our player camera, ... */" />
+                    <marker date="1533256507891" expanded="true" signature="394:524" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlayerObject.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObject.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+                  <folding>
+                    <marker date="1533618609906" expanded="true" signature="48:553" ph="{...}" />
+                    <marker date="1533618609906" expanded="true" signature="230:551" ph="{...}" />
+                    <marker date="1533618609906" expanded="true" signature="251:446" ph="{...}" />
+                    <marker date="1533618609906" expanded="true" signature="342:381" ph="{...}" />
+                    <marker date="1533618609906" expanded="true" signature="391:442" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlatformerController.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="975">
+                  <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+                  <folding>
+                    <marker date="1533662677840" expanded="false" signature="6:90" ph="..." />
+                    <marker date="1533662677840" expanded="true" signature="176:2353" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="389:455" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="486:522" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="563:688" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="731:1091" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="1065:1085" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="1145:1423" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="1502:2351" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="1585:1820" ph="{...}" />
+                    <marker date="1533662677840" expanded="true" signature="1833:2239" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PhysicsObject.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+                  <folding>
+                    <marker date="1533618609836" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1533618609836" expanded="true" signature="123:1916" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="594:1025" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="840:1014" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="1070:1512" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="1557:1911" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="PhysicsObject.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="990">
+                  <caret line="68" selection-start-line="68" selection-end-line="68" />
+                  <folding>
+                    <marker date="1533618609836" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1533618609836" expanded="true" signature="123:1916" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="594:1025" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="840:1014" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="1070:1512" ph="{...}" />
+                    <marker date="1533618609836" expanded="true" signature="1557:1911" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Jetpack.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Jetpack.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+                  <folding>
+                    <marker date="1533256507406" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1533256507406" expanded="true" signature="116:1194" ph="{...}" />
+                    <marker date="1533256507406" expanded="true" signature="286:383" ph="{...}" />
+                    <marker date="1533256507406" expanded="true" signature="478:885" ph="{...}" />
+                    <marker date="1533256507406" expanded="true" signature="975:1192" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlatformerMotor.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1023">
+                  <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+                  <folding>
+                    <marker date="1533665164999" expanded="false" signature="6:165" ph="..." />
+                    <marker date="1533665164999" expanded="true" signature="211:5648" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="1162:1338" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="1438:1680" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="1723:1908" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="1950:2399" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="2495:3510" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="2540:2680" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="2884:3032" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="3535:3766" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="3811:3997" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="4022:4088" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="4124:4639" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="4173:4386" ph="/* The player is grounded if a circlecast to the groundcheck position hits anything designated as ground ... */" />
+                    <marker date="1533665164999" expanded="true" signature="4529:4633" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="4676:4939" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="4815:4933" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="4969:5304" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="5011:5298" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="5327:5476" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="5346:5470" ph="{...}" />
+                    <marker date="1533665164999" expanded="true" signature="5505:5646" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7FBD087-C5D2-4E05-9D01-0D5CE4D34975/ba/0597783e/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e8/f67e3045/BoltEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Attractor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29E4BC3C-8C2A-478F-A854-DB9842198A56/71/a8a356e9/PlatformerPlayerCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/0f/b960d188/Entity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObjectRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/3a/121381db/BoltConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/BoltServerTest/bolt samples/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1ED5D9E-8875-4156-A4BF-9EBC2D53C6EC/f4/a4ca6c50/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Jetpack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1B127CBD-80E5-4367-9288-EF03B25D358A/45/fa88bba9/IPlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e7/b0384ca7/BoltSingletonPrefab`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D5BA5B3-44AF-4603-BBDD-C54F7A068D03/07/7cdbde56/IPlayerState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FBB5052-6419-4E1E-90A9-CD9375BBBD28/8a/3f159fc9/PlatformerPlayerCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/ServerCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,8 +237,20 @@
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/Callbacks.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerMotor.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs" />
         <option value="$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerMotor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlatformController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlatformerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Attractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Jetpack.cs" />
+        <option value="$PROJECT_DIR$/Assets/PhysicsObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" />
       </list>
     </option>
   </component>
@@ -162,11 +264,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1905" />
+    <option name="x" value="1912" />
     <option name="y" value="-189" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,7 +279,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -189,6 +291,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,11 +329,68 @@
       <updated>1530665121842</updated>
       <workItem from="1530665128033" duration="1388000" />
       <workItem from="1530719620731" duration="6083000" />
+      <workItem from="1532930121687" duration="21269000" />
+      <workItem from="1532991284754" duration="3474000" />
+      <workItem from="1533051666281" duration="5298000" />
+      <workItem from="1533087652279" duration="24712000" />
+      <workItem from="1533240323425" duration="3333000" />
+      <workItem from="1533251719603" duration="4441000" />
+      <workItem from="1533662651849" duration="2894000" />
     </task>
+    <task id="LOCAL-00001" summary="Delete unnecessary assets (part of 2)">
+      <created>1532930042606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532930042606</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update player prefab (part of 2)">
+      <created>1532993957717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532993957717</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update Level2 scene and project settings (part of 2)">
+      <created>1532994011633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532994011633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update bolt assets (part of 2)">
+      <created>1532994052559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532994052559</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Delete additional unnecessary assets (part of 2)">
+      <created>1532994093875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532994093875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add bolt logic with 2D character controller (part of 2)">
+      <created>1532994138805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532994138805</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add test attractor and update physics code (part of 2)">
+      <created>1533105521656</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533105521656</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7471000" />
+    <option name="totallyTimeSpent" value="73882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,12 +412,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14270152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.053304903" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -268,7 +427,33 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.5719697" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -277,105 +462,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete unnecessary assets (part of 2)" />
+    <MESSAGE value="Update player prefab (part of 2)" />
+    <MESSAGE value="Update Level2 scene and project settings (part of 2)" />
+    <MESSAGE value="Update bolt assets (part of 2)" />
+    <MESSAGE value="Delete additional unnecessary assets (part of 2)" />
+    <MESSAGE value="Add bolt logic with 2D character controller (part of 2)" />
+    <MESSAGE value="Add test attractor and update physics code (part of 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test attractor and update physics code (part of 2)" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/TPCspawner.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530535293000" expanded="false" signature="6:107" ph="..." />
-            <marker date="1530535293000" expanded="true" signature="158:3412" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="217:491" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="304:373" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="418:485" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="507:640" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="762:840" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="858:1485" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1111:1449" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1528:1601" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1641:1928" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1827:1886" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1958:2160" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2000:2057" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2093:2154" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2188:2524" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2249:2518" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2323:2508" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2378:2494" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2554:2688" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2718:2812" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2848:2958" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2999:3409" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="3038:3330" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="3343:3403" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/TPCspawner.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/TPCspawner.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/ThirdPersonControllerCallbacks.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530535293000" expanded="false" signature="6:107" ph="..." />
-            <marker date="1530535293000" expanded="true" signature="158:3412" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="217:491" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="304:373" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="418:485" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="507:640" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="762:840" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="858:1485" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1111:1449" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1528:1601" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1641:1928" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1827:1886" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="1958:2160" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2000:2057" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2093:2154" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2188:2524" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2249:2518" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2323:2508" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2378:2494" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2554:2688" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2718:2812" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2848:2958" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="2999:3409" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="3038:3330" ph="{...}" />
-            <marker date="1530535293000" expanded="true" signature="3343:3403" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530729235407" expanded="true" signature="6:78" ph="..." />
-            <marker date="1530729235407" expanded="true" signature="125:642" ph="{...}" />
-            <marker date="1530729235407" expanded="true" signature="186:640" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/Callbacks.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/ThirdPersonControllerCallbacks.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/Callbacks.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e7/b0384ca7/BoltSingletonPrefab`1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -383,50 +487,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1B127CBD-80E5-4367-9288-EF03B25D358A/45/fa88bba9/IPlayerState.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/IAttractable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/CharacterController2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CharacterController2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/TPCspawner.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/TPCspawner.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/ThirdPersonControllerCallbacks.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/Callbacks.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e7/b0384ca7/BoltSingletonPrefab`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scripts/PlayerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerMotor.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D5BA5B3-44AF-4603-BBDD-C54F7A068D03/07/7cdbde56/IPlayerState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObjectRegistry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29E4BC3C-8C2A-478F-A854-DB9842198A56/71/a8a356e9/PlatformerPlayerCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FBB5052-6419-4E1E-90A9-CD9375BBBD28/8a/3f159fc9/PlatformerPlayerCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlatformController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlayerCallbacks.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerMotor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/CharacterController2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1ED5D9E-8875-4156-A4BF-9EBC2D53C6EC/f4/a4ca6c50/Transform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlatformerController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/ServerCallbacks.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7FBD087-C5D2-4E05-9D01-0D5CE4D34975/ba/0597783e/Rigidbody.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Attractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Jetpack.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <marker date="1530733900844" expanded="true" signature="6:47" ph="..." />
-            <marker date="1530733900844" expanded="true" signature="136:380" ph="{...}" />
-            <marker date="1530733900844" expanded="true" signature="192:378" ph="{...}" />
-            <marker date="1530733900844" expanded="true" signature="217:339" ph="/* this just instantiates our player camera, ... */" />
+            <marker date="1533256507406" expanded="false" signature="6:78" ph="..." />
+            <marker date="1533256507406" expanded="true" signature="116:1194" ph="{...}" />
+            <marker date="1533256507406" expanded="true" signature="286:383" ph="{...}" />
+            <marker date="1533256507406" expanded="true" signature="478:885" ph="{...}" />
+            <marker date="1533256507406" expanded="true" signature="975:1192" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="975">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
           <folding>
-            <marker date="1530535292000" expanded="true" signature="51:3411" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="117:3408" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="780:832" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="963:1038" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1060:1092" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1135:2218" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1156:2214" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1408:1491" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1431:1485" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1511:1564" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1624:1707" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="1946:2044" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="2263:2327" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="2439:2526" ph="{...}" />
-            <marker date="1530535292000" expanded="true" signature="2651:3405" ph="{...}" />
+            <marker date="1533662677840" expanded="false" signature="6:90" ph="..." />
+            <marker date="1533662677840" expanded="true" signature="176:2353" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="389:455" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="486:522" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="563:688" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="731:1091" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="1065:1085" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="1145:1423" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="1502:2351" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="1585:1820" ph="{...}" />
+            <marker date="1533662677840" expanded="true" signature="1833:2239" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <marker date="1530734209986" expanded="true" signature="6:107" ph="..." />
-            <marker date="1530734209986" expanded="true" signature="183:188" ph="{...}" />
+            <marker date="1533618609906" expanded="true" signature="48:553" ph="{...}" />
+            <marker date="1533618609906" expanded="true" signature="230:551" ph="{...}" />
+            <marker date="1533618609906" expanded="true" signature="251:446" ph="{...}" />
+            <marker date="1533618609906" expanded="true" signature="342:381" ph="{...}" />
+            <marker date="1533618609906" expanded="true" signature="391:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1023">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <marker date="1533665164999" expanded="false" signature="6:165" ph="..." />
+            <marker date="1533665164999" expanded="true" signature="211:5648" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="1162:1338" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="1438:1680" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="1723:1908" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="1950:2399" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="2495:3510" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="2540:2680" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="2884:3032" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="3535:3766" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="3811:3997" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="4022:4088" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="4124:4639" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="4173:4386" ph="/* The player is grounded if a circlecast to the groundcheck position hits anything designated as ground ... */" />
+            <marker date="1533665164999" expanded="true" signature="4529:4633" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="4676:4939" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="4815:4933" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="4969:5304" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="5011:5298" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="5327:5476" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="5346:5470" ph="{...}" />
+            <marker date="1533665164999" expanded="true" signature="5505:5646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <marker date="1533618609836" expanded="false" signature="6:78" ph="..." />
+            <marker date="1533618609836" expanded="true" signature="123:1916" ph="{...}" />
+            <marker date="1533618609836" expanded="true" signature="594:1025" ph="{...}" />
+            <marker date="1533618609836" expanded="true" signature="840:1014" ph="{...}" />
+            <marker date="1533618609836" expanded="true" signature="1070:1512" ph="{...}" />
+            <marker date="1533618609836" expanded="true" signature="1557:1911" ph="{...}" />
           </folding>
         </state>
       </provider>

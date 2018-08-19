@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_SpaceForce!/_Scenes/BoltTesting/scenes/Menu.unity
-    guid: 1567b36c01b082e43b2fb50e206dc8d2
+    path: Assets/_SpaceForce!/_Scenes/BoltTesting/_Scenes/Menu.unity
+    guid: 163c619f215ed7f4fb075c112507923e
   - enabled: 1
-    path: Assets/_SpaceForce!/_Scenes/BoltTesting/scenes/Level2.unity
-    guid: fe36c38162ead6947a41ac85f68026c6
+    path: Assets/_SpaceForce!/_Scenes/BoltTesting/_Scenes/Level2.unity
+    guid: 67dd795d202a65f49bb46822ff6371bb
   m_configObjects: {}
