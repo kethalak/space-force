@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Resources;
+using UnityEngine;
 
 public class PlatformerMotor : PhysicsObject
 {
@@ -9,38 +10,23 @@ public class PlatformerMotor : PhysicsObject
     [SerializeField] private float _jumpForce = 3;
     [SerializeField] private float _gravityModifier = .5f;
     [SerializeField] private float _maxSpeed = 2f;
-    [SerializeField] private Jetpack _jetpack;
-
-    public State PlayerState;              // State to be syncd throughout the network
     
+    public PlayerAiming _aiming;
+    public Camera PlayerCamera { get; set; }
+    public State PlayerState;              // State to be syncd throughout the network
     private Transform _groundCheck;    // A position marking where to check if the player is grounded.
+    private Jetpack _jetpack;
     
     private const float GroundedRadius = .05f; // Radius of the overlap circle to determine if grounded
 
-    private bool _facingRight = false;
-    
-    public Animator Anim;            // Reference to the player's animator component. 
-    
-    public bool FacingRight
-    {
-        get
-        {
-            return _facingRight;
-        }
-        set
-        {
-            if (_facingRight == value) return;
-            Flip();
-            _facingRight = value;
-        }
-    }
-    
-    private void Awake()
+    protected void Awake()
     {
         PlayerState = new State {Position = transform.localPosition};  
         
         // Setting up references.
         _groundCheck = transform.Find("GroundCheck");
+        _aiming = GetComponent<PlayerAiming>();
+        _jetpack = GetComponent<Jetpack>();
     }
     
     public void SetState (Vector2 position, Vector3 velocity, bool grounded)
@@ -53,44 +39,23 @@ public class PlatformerMotor : PhysicsObject
         // assign local transform
         transform.localPosition = PlayerState.Position;
     }
-
-    protected override void FixedUpdate()
-    {
-        base.FixedUpdate();
-
-        Anim.SetBool("Ground", PlayerState.Grounded);
-
-        // Set the vertical animation
-        Anim.SetFloat("vSpeed", PlayerState.Velocity.y);  
-    }
     
     private void Move (Vector2 move)
     {    
         //only control the player if grounded or airControl is turned on
-        if (!PlayerState.Grounded && !_airControl) return;
-        
-        // The Speed animator parameter is set to the absolute value of the horizontal input.
-        Anim.SetFloat("Speed", Mathf.Abs(move.x));           
+        if (!PlayerState.Grounded && !_airControl) return;           
         
         // Move the character
         transform.Translate(transform.InverseTransformDirection(move) * BoltNetwork.frameDeltaTime);
     }
 
-    public State HandleInput(bool up, bool down, bool left, bool right, bool jump, bool shift)
+    public State HandleInput(bool up, bool down, bool left, bool right, bool jump, bool shift, Vector2 mousePos)
     {
-        
-        if (_jetpack != null)
-        {
-            PlayerState.Velocity += transform.TransformDirection(_jetpack.HandleInput(up, down, left, right, jump, shift));;
-        }
-
-        if (right && !FacingRight)
-            FacingRight = true;
-
-        if (left && FacingRight)
-            FacingRight = false;
+        PlayerState.Velocity += _jetpack.AddJetpackForce(up, down, left, right, shift);
 
         CheckIfGrounded();
+        
+       // _aiming.Aim(PlayerCamera, mousePos);
         
         if (PlayerState.Grounded)
         {
@@ -98,8 +63,21 @@ public class PlatformerMotor : PhysicsObject
 
             Run(right, left);
 
+            // The Speed animator parameter is set to the absolute value of the horizontal input.
+            PlayerState.Speed = Mathf.Abs(PlayerState.Velocity.y);
+
             if (up || jump)
+            {
                 Jump();
+                // Set the vertical animation
+                PlayerState.Jump = true;  
+            }
+            else        
+                PlayerState.Jump = false;     
+        }
+        else
+        {
+            PlayerState.Jump = false;   
         }
         
         if(!PlayerState.Grounded)
@@ -119,26 +97,19 @@ public class PlatformerMotor : PhysicsObject
         return PlayerState;
         
     }
-
-    private void Flip() // Do not call directly. Use FacingRight property.
-    {
-        // Multiply the player's x local scale by -1.
-        var scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;   
-    }
-
+    
     private void Run(bool right, bool left)
     {
         if (right)
             PlayerState.Velocity = transform.right * (1 * _maxSpeed);
         if (left)
-            PlayerState.Velocity = transform.right * (-1 * _maxSpeed);      
+            PlayerState.Velocity = transform.right * (-1 * _maxSpeed);   
     }
 
     private void Jump()
     {
-        PlayerState.Velocity += transform.up * _jumpForce;
+        var jumpVector = transform.up * _jumpForce;
+        PlayerState.Velocity += jumpVector;
     }
 
     private void CheckIfGrounded()
@@ -161,7 +132,6 @@ public class PlatformerMotor : PhysicsObject
 
         if (!Physics.Raycast(_groundCheck.position, transform.up * -1, out hit, 1, _whatIsGround)) return;
         transform.position = hit.point + (transform.up * _height);
-        print("resetting pos");
     }
 
     private void OnDrawGizmos ()
@@ -179,5 +149,7 @@ public class PlatformerMotor : PhysicsObject
         public Vector2 Position;
         public bool Grounded;
         public Vector3 Velocity;
+        public bool Jump;
+        public float Speed;
     }
 }

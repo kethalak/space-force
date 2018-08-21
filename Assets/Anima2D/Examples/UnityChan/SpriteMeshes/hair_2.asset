@@ -2312,80 +2312,68 @@ MonoBehaviour:
   m_BindPoses:
   - bindPose:
       e00: -0.035085037
-      e01: 0.9993845
+      e01: -0.9993845
       e02: 0
-      e03: 0
-      e10: -0.9993845
+      e03: -0.36035678
+      e10: 0.9993845
       e11: -0.035085037
       e12: 0
-      e13: 0
+      e13: -0.26472345
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -0.36035678
-      e31: -0.26472345
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1.7406193
     path: Spine/Neck/Head/Left_hair_tail_1
     name: Left_hair_tail_1
-    color:
-      r: 1
-      g: 0
-      b: 0
-      a: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 0
   - bindPose:
       e00: 0.02735043
-      e01: 0.9996261
+      e01: -0.9996261
       e02: 0
-      e03: 0
-      e10: -0.9996261
+      e03: -2.1134007
+      e10: 0.9996261
       e11: 0.02735043
       e12: 0
-      e13: 0
+      e13: -0.1330951
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -2.1134007
-      e31: -0.1330951
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1.466811
     path: Spine/Neck/Head/Left_hair_tail_1/Left_hair_tail_2
     name: Left_hair_tail_2
-    color:
-      r: 1
-      g: 0.75
-      b: 0
-      a: 1
+    color: {r: 1, g: 0.75, b: 0, a: 1}
     zOrder: -1
   - bindPose:
       e00: 0.1307016
-      e01: 0.991422
+      e01: -0.991422
       e02: 0
-      e03: 0
-      e10: -0.991422
+      e03: -3.5747852
+      e10: 0.991422
       e11: 0.1307016
       e12: 0
-      e13: 0
+      e13: 0.2379609
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -3.5747852
-      e31: 0.2379609
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1
     path: Spine/Neck/Head/Left_hair_tail_1/Left_hair_tail_2/Left_hair_tail_3
     name: Left_hair_tail_3
-    color:
-      r: 0.5
-      g: 1
-      b: 0
-      a: 1
+    color: {r: 0.5, g: 1, b: 0, a: 1}
     zOrder: -2
   m_Blendshapes: []

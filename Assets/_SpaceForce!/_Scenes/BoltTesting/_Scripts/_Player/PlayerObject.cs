@@ -13,8 +13,8 @@ public class PlayerObject
 	{
 		if (!character)
 		{
-			character = BoltNetwork.Instantiate(BoltPrefabs.SpaceforceCadet);
-
+			character = BoltNetwork.Instantiate(BoltPrefabs.SpaceCadet);
+			PlanetManager.Instance.PhysicsObjects.Add(character.gameObject.GetComponent<PhysicsObject>());
 			if (IsServer)
 			{
 				character.TakeControl();

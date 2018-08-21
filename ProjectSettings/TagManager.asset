@@ -17,7 +17,7 @@ TagManager:
   - 
   - Terrain
   - Ground
-  - 
+  - Player
   - 
   - 
   - 
@@ -41,4 +41,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: SpaceCadet
+    uniqueID: 1862053371
+    locked: 0
+  - name: PlayerHitbox
+    uniqueID: 4056718279
     locked: 0

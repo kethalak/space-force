@@ -1,54 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ed1aab-a17f-490b-88ed-0f75599db437" name="Default" comment="Add test attractor and update physics code (part of 2)">
+    <list default="true" id="f2ed1aab-a17f-490b-88ed-0f75599db437" name="Default" comment="Add cinemachine player camera (part of 6)">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.space-force/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.space-force/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.space-force/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.space-force/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anima2D/Examples/Robot/Animations/RobotAnimatorController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anima2D/Examples/Robot/Animations/RobotAnimatorController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anima2D/Examples/UnityChan/Animations/Unity chan.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anima2D/Examples/UnityChan/Animations/Unity chan.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Animation/2dCharacterAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Animation/2dCharacterAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/AdobeStock_123508533.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/AdobeStock_123508533.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/_Textures/Flame.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/_Textures/Flame.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceForcePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceForcePlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceforceCadet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Prefabs/SpaceforceCadet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scenes/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/assemblies/bolt.user.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/bolt/resources/BoltPrefabDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/resources/BoltPrefabDatabase.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/bolt/resources/BoltRuntimeSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/bolt/resources/BoltRuntimeSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/bolt.user.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/Managed/bolt.user.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/boot.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/level2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/resources.assets.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/Bolt_DebugStart_Build_Data/sharedassets2.assets.resS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/2.0/web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.0/web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/4.5/web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/browscap.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/config" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bolt_DebugStart_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_20.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_21.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_22.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_22.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_23.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_23.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_24.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_24.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_25.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_25.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_26.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_26.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_27.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_27.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_28.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_28.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_29.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_29.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_30.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_30.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/Fantasy Planets/PNG/Planet_9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/_Textures/Starfield.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_SpaceForce!/_Art/_Textures/Starfield.png.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,21 +44,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39786157">
+    <splitter split-orientation="horizontal" split-proportion="0.5104225">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="PlayerCallbacks.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerCallbacks.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <marker date="1533256507891" expanded="true" signature="107:526" ph="{...}" />
-                    <marker date="1533256507891" expanded="true" signature="163:330" ph="{...}" />
-                    <marker date="1533256507891" expanded="true" signature="169:291" ph="/* this just instantiates our player camera, ... */" />
-                    <marker date="1533256507891" expanded="true" signature="394:524" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="PlayerObject.cs" pinned="false" current-in-tab="false">
@@ -80,13 +57,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
                   <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-                  <folding>
-                    <marker date="1533618609906" expanded="true" signature="48:553" ph="{...}" />
-                    <marker date="1533618609906" expanded="true" signature="230:551" ph="{...}" />
-                    <marker date="1533618609906" expanded="true" signature="251:446" ph="{...}" />
-                    <marker date="1533618609906" expanded="true" signature="342:381" ph="{...}" />
-                    <marker date="1533618609906" expanded="true" signature="391:442" ph="{...}" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -94,21 +64,8 @@
           <file leaf-file-name="PlatformerController.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="975">
+                <state relative-caret-position="1020">
                   <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-                  <folding>
-                    <marker date="1533662677840" expanded="false" signature="6:90" ph="..." />
-                    <marker date="1533662677840" expanded="true" signature="176:2353" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="389:455" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="486:522" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="563:688" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="731:1091" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="1065:1085" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="1145:1423" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="1502:2351" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="1585:1820" ph="{...}" />
-                    <marker date="1533662677840" expanded="true" signature="1833:2239" ph="{...}" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -116,15 +73,15 @@
           <file leaf-file-name="PhysicsObject.cs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+                <state relative-caret-position="465">
+                  <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
                   <folding>
-                    <marker date="1533618609836" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1533618609836" expanded="true" signature="123:1916" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="594:1025" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="840:1014" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="1070:1512" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="1557:1911" ph="{...}" />
+                    <marker date="1534883001163" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1534883001163" expanded="true" signature="123:1957" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="643:1175" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="981:1155" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="1220:1561" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="1606:1952" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -137,15 +94,15 @@
           <file leaf-file-name="PhysicsObject.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
-                  <caret line="68" selection-start-line="68" selection-end-line="68" />
+                <state relative-caret-position="840">
+                  <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
                   <folding>
-                    <marker date="1533618609836" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1533618609836" expanded="true" signature="123:1916" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="594:1025" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="840:1014" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="1070:1512" ph="{...}" />
-                    <marker date="1533618609836" expanded="true" signature="1557:1911" ph="{...}" />
+                    <marker date="1534883001163" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1534883001163" expanded="true" signature="123:1957" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="643:1175" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="981:1155" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="1220:1561" ph="{...}" />
+                    <marker date="1534883001163" expanded="true" signature="1606:1952" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -154,47 +111,31 @@
           <file leaf-file-name="Jetpack.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Jetpack.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
+                <state relative-caret-position="300">
                   <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-                  <folding>
-                    <marker date="1533256507406" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1533256507406" expanded="true" signature="116:1194" ph="{...}" />
-                    <marker date="1533256507406" expanded="true" signature="286:383" ph="{...}" />
-                    <marker date="1533256507406" expanded="true" signature="478:885" ph="{...}" />
-                    <marker date="1533256507406" expanded="true" signature="975:1192" ph="{...}" />
-                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PlatformerMotor.cs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PlatformerMotor.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1023">
+                <state relative-caret-position="1125">
                   <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlayerCamera.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlayerCamera.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                   <folding>
-                    <marker date="1533665164999" expanded="false" signature="6:165" ph="..." />
-                    <marker date="1533665164999" expanded="true" signature="211:5648" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="1162:1338" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="1438:1680" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="1723:1908" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="1950:2399" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="2495:3510" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="2540:2680" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="2884:3032" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="3535:3766" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="3811:3997" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="4022:4088" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="4124:4639" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="4173:4386" ph="/* The player is grounded if a circlecast to the groundcheck position hits anything designated as ground ... */" />
-                    <marker date="1533665164999" expanded="true" signature="4529:4633" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="4676:4939" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="4815:4933" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="4969:5304" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="5011:5298" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="5327:5476" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="5346:5470" ph="{...}" />
-                    <marker date="1533665164999" expanded="true" signature="5505:5646" ph="{...}" />
+                    <marker date="1534876584291" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1534876584291" expanded="true" signature="141:651" ph="{...}" />
+                    <marker date="1534876584291" expanded="true" signature="332:545" ph="{...}" />
+                    <marker date="1534876584291" expanded="true" signature="571:649" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -209,6 +150,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Utility/SaveDuringPlay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7FBD087-C5D2-4E05-9D01-0D5CE4D34975/ba/0597783e/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e8/f67e3045/BoltEntity.cs" root0="SKIP_HIGHLIGHTING" />
@@ -217,6 +159,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29E4BC3C-8C2A-478F-A854-DB9842198A56/71/a8a356e9/PlatformerPlayerCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/0f/b960d188/Entity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObjectRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cinemachine/Timeline/Editor/CinemachineShotEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/3a/121381db/BoltConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/BoltServerTest/bolt samples/bolt_samples/AdvancedTutorial/scripts/Player/PlayerCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1ED5D9E-8875-4156-A4BF-9EBC2D53C6EC/f4/a4ca6c50/Transform.cs" root0="SKIP_HIGHLIGHTING" />
@@ -224,12 +167,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1B127CBD-80E5-4367-9288-EF03B25D358A/45/fa88bba9/IPlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4278445-A0B1-4F79-B1F6-3EA57F8864A0/e7/b0384ca7/BoltSingletonPrefab`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D5BA5B3-44AF-4603-BBDD-C54F7A068D03/07/7cdbde56/IPlayerState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Anima2D/Scripts/Editor/TextureEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FBB5052-6419-4E1E-90A9-CD9375BBBD28/8a/3f159fc9/PlatformerPlayerCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/ServerCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -241,16 +185,17 @@
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/scripts/PlayerCallbacks.cs" />
         <option value="$PROJECT_DIR$/Assets/OnShipPlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerMotor.cs" />
-        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlatformController.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerObject.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlatformerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Attractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Jetpack.cs" />
-        <option value="$PROJECT_DIR$/Assets/PhysicsObject.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/PhysicsObject.cs" />
       </list>
     </option>
   </component>
@@ -275,10 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -291,7 +233,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,6 +281,7 @@
       <workItem from="1533240323425" duration="3333000" />
       <workItem from="1533251719603" duration="4441000" />
       <workItem from="1533662651849" duration="2894000" />
+      <workItem from="1534875114354" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="Delete unnecessary assets (part of 2)">
       <created>1532930042606</created>
@@ -386,13 +332,27 @@
       <option name="project" value="LOCAL" />
       <updated>1533105521656</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add cinemachine player camera (part of 6)">
+      <created>1534879836863</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534879836863</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update Anima2d, arrange new cadet sprites (part of 6)&#10;also add auto mass">
+      <created>1534889648519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534889648519</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73882000" />
+    <option name="totallyTimeSpent" value="78071000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -405,21 +365,22 @@
     <frame x="1912" y="-189" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32897604" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14270152" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.053304903" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14270152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05383795" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +388,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="NuGet" order="7" />
@@ -435,24 +395,24 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.5719697" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,11 +430,11 @@
     <MESSAGE value="Delete additional unnecessary assets (part of 2)" />
     <MESSAGE value="Add bolt logic with 2D character controller (part of 2)" />
     <MESSAGE value="Add test attractor and update physics code (part of 2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test attractor and update physics code (part of 2)" />
+    <MESSAGE value="Add cinemachine player camera (part of 6)" />
+    <MESSAGE value="Update Anima2d, arrange new cadet sprites (part of 6)&#10;also add auto mass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Anima2d, arrange new cadet sprites (part of 6)&#10;also add auto mass" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/TPCspawner.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/PlayerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/ThirdPersonCharacter/Scripts/ThirdPersonControllerCallbacks.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/bolt_samples/BoltInit.cs" />
@@ -536,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/OnShipPlayerCamera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29E4BC3C-8C2A-478F-A854-DB9842198A56/71/a8a356e9/PlatformerPlayerCommand.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -593,35 +546,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Jetpack.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="300">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <marker date="1533256507406" expanded="false" signature="6:78" ph="..." />
-            <marker date="1533256507406" expanded="true" signature="116:1194" ph="{...}" />
-            <marker date="1533256507406" expanded="true" signature="286:383" ph="{...}" />
-            <marker date="1533256507406" expanded="true" signature="478:885" ph="{...}" />
-            <marker date="1533256507406" expanded="true" signature="975:1192" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
+        <state relative-caret-position="1020">
           <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding>
-            <marker date="1533662677840" expanded="false" signature="6:90" ph="..." />
-            <marker date="1533662677840" expanded="true" signature="176:2353" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="389:455" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="486:522" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="563:688" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="731:1091" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="1065:1085" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="1145:1423" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="1502:2351" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="1585:1820" ph="{...}" />
-            <marker date="1533662677840" expanded="true" signature="1833:2239" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,58 +562,194 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <marker date="1533618609906" expanded="true" signature="48:553" ph="{...}" />
-            <marker date="1533618609906" expanded="true" signature="230:551" ph="{...}" />
-            <marker date="1533618609906" expanded="true" signature="251:446" ph="{...}" />
-            <marker date="1533618609906" expanded="true" signature="342:381" ph="{...}" />
-            <marker date="1533618609906" expanded="true" signature="391:442" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/_Player/PlatformerMotor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
+        <state relative-caret-position="1125">
           <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Cinemachine/Base/Editor/Utility/SaveDuringPlay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="444" column="50" selection-start-line="444" selection-start-column="50" selection-end-line="444" selection-end-column="50" />
           <folding>
-            <marker date="1533665164999" expanded="false" signature="6:165" ph="..." />
-            <marker date="1533665164999" expanded="true" signature="211:5648" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="1162:1338" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="1438:1680" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="1723:1908" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="1950:2399" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="2495:3510" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="2540:2680" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="2884:3032" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="3535:3766" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="3811:3997" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="4022:4088" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="4124:4639" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="4173:4386" ph="/* The player is grounded if a circlecast to the groundcheck position hits anything designated as ground ... */" />
-            <marker date="1533665164999" expanded="true" signature="4529:4633" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="4676:4939" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="4815:4933" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="4969:5304" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="5011:5298" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="5327:5476" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="5346:5470" ph="{...}" />
-            <marker date="1533665164999" expanded="true" signature="5505:5646" ph="{...}" />
+            <marker date="1512069129000" expanded="false" signature="6:110" ph="..." />
+            <marker date="1512069129000" expanded="true" signature="136:21074" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="246:3050" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="261:390" ph="/// Get the full name of an object, travelling up the transform parents to the root. ... " />
+            <marker date="1512069129000" expanded="true" signature="451:714" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="724:840" ph="/// Will find the named object, active or inactive, from the full path. ... " />
+            <marker date="1512069129000" expanded="true" signature="933:2022" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="1503:1976" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="1611:1901" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="1732:1883" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="2171:2290" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="2301:2427" ph="/// This finds all the behaviours in scene, active or inactive, excluding prefabs ... " />
+            <marker date="1512069129000" expanded="true" signature="2507:3044" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="2634:2989" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="3084:9143" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="3099:3279" ph="/// Called for each leaf field.  Return value should be true if action was taken. ... " />
+            <marker date="1512069129000" expanded="true" signature="3433:3593" ph="/// Called for each field node, if and only if OnLeafField() for it or one ... " />
+            <marker date="1512069129000" expanded="true" signature="3809:3947" ph="/// Called for each field, to test whether to proceed with scanning it.  Return true to scan. ... " />
+            <marker date="1512069129000" expanded="true" signature="4093:4170" ph="/// Which fields will be scanned ... " />
+            <marker date="1512069129000" expanded="true" signature="4327:7288" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="4598:7033" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="4681:5909" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="4989:5381" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="5440:5815" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="5635:5793" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="5930:7019" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="6123:7001" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="6249:6979" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="6435:6953" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="6633:6923" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="7354:8309" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="7509:8265" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="7579:8251" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="7741:8233" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="8319:8508" ph="/// Recursively scan the MonoBehaviours of a GameObject and its children. ... " />
+            <marker date="1512069129000" expanded="true" signature="8576:9137" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="8891:9093" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="9151:9483" ph="/// Using reflection, this class scans a GameObject (and optionally its children) ... " />
+            <marker date="1512069129000" expanded="true" signature="9510:15055" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="9638:9865" ph="/// Recursively collect all the field values in the MonoBehaviours ... " />
+            <marker date="1512069129000" expanded="true" signature="9919:10534" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="10197:10487" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="10602:10705" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="10787:11190" ph="/// Recursively scan the MonoBehaviours of a GameObject and its children. ... " />
+            <marker date="1512069129000" expanded="true" signature="11260:12336" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="11476:12067" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="11731:12015" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="12154:12282" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="12471:12722" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="12732:13114" ph="/// Parse a string to generate an object. ... " />
+            <marker date="1512069129000" expanded="true" signature="13202:14207" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="13755:13989" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="14044:14172" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="14263:15049" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="14403:14674" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="14738:15004" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="15063:15901" ph="/// For all registered object types, record their state when exiting Play Mode, ... " />
+            <marker date="1512069129000" expanded="true" signature="15956:21072" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="16066:16333" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="16160:16323" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="16212:16309" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="16366:16666" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="16758:17174" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="16793:17164" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="18242:18375" ph="/// If you need to get notified before state is collected for hotsave, this is the place ... " />
+            <marker date="1512069129000" expanded="true" signature="18585:19326" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="18797:19278" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="18922:19264" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="19012:19246" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="19482:20089" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="19809:20001" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="20140:21066" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="20391:20923" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="20503:20909" ph="{...}" />
+            <marker date="1512069129000" expanded="true" signature="20658:20891" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_SpaceForce!/_Scenes/BoltTesting/_Scripts/PlayerCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1534876584291" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534876584291" expanded="true" signature="141:651" ph="{...}" />
+            <marker date="1534876584291" expanded="true" signature="332:545" ph="{...}" />
+            <marker date="1534876584291" expanded="true" signature="571:649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Anima2D/Scripts/Editor/TextureEditorWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding>
+            <marker date="1532929515225" expanded="false" signature="6:166" ph="..." />
+            <marker date="1532929515225" expanded="true" signature="186:13219" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="237:13217" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="309:3060" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="1519:1759" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="1529:1754" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="1556:1713" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="1779:3056" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="3997:4343" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4008:4339" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4044:4256" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4389:4657" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4400:4653" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4441:4553" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4689:4966" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4700:4962" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="4991:5376" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5002:5372" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5406:5478" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5435:5474" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5509:5723" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5544:5569" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5761:6757" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="5841:5929" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="6166:6196" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="6345:6753" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="6587:6748" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="6641:6681" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="6790:7452" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="6954:7181" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="7087:7176" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="7418:7448" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="7500:7544" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="7582:7714" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="7739:7779" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="7826:8413" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="8164:8394" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="8443:8507" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="8538:9628" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="8811:8909" ph="/* FilterMode filterMode = this.m_Texture.filterMode; ... */" />
+            <marker date="1532929515225" expanded="true" signature="8997:9058" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="9066:9544" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="9548:9624" ph="/* m_Texture.filterMode = filterMode; ... */" />
+            <marker date="1532929515225" expanded="true" signature="9673:9825" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="9725:9821" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="9861:10453" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="10491:10745" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="10786:11694" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="11102:11136" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="11186:11245" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="11539:11573" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="11729:12422" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12291:12372" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12463:12471" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12517:12525" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12563:12571" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12621:12726" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12659:12722" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12769:12777" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12811:13214" ph="{...}" />
+            <marker date="1532929515225" expanded="true" signature="12832:13210" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PhysicsObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="465">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
-            <marker date="1533618609836" expanded="false" signature="6:78" ph="..." />
-            <marker date="1533618609836" expanded="true" signature="123:1916" ph="{...}" />
-            <marker date="1533618609836" expanded="true" signature="594:1025" ph="{...}" />
-            <marker date="1533618609836" expanded="true" signature="840:1014" ph="{...}" />
-            <marker date="1533618609836" expanded="true" signature="1070:1512" ph="{...}" />
-            <marker date="1533618609836" expanded="true" signature="1557:1911" ph="{...}" />
+            <marker date="1534883001163" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534883001163" expanded="true" signature="123:1957" ph="{...}" />
+            <marker date="1534883001163" expanded="true" signature="643:1175" ph="{...}" />
+            <marker date="1534883001163" expanded="true" signature="981:1155" ph="{...}" />
+            <marker date="1534883001163" expanded="true" signature="1220:1561" ph="{...}" />
+            <marker date="1534883001163" expanded="true" signature="1606:1952" ph="{...}" />
           </folding>
         </state>
       </provider>

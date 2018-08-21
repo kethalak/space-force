@@ -300,11 +300,11 @@ namespace Anima2D
 				m_CurrentMesh.Clear();
 				m_CurrentMesh.name = m_InitialMesh.name;
 				m_CurrentMesh.vertices = m_InitialMesh.vertices;
+				m_CurrentMesh.uv = m_InitialMesh.uv;
 				m_CurrentMesh.normals = m_InitialMesh.normals;
 				m_CurrentMesh.tangents = m_InitialMesh.tangents;
 				m_CurrentMesh.boneWeights = m_InitialMesh.boneWeights;
 				m_CurrentMesh.bindposes = m_InitialMesh.bindposes;
-				m_CurrentMesh.uv = m_InitialMesh.uv;
 				m_CurrentMesh.bounds = m_InitialMesh.bounds;
 				m_CurrentMesh.colors = m_InitialMesh.colors;
 

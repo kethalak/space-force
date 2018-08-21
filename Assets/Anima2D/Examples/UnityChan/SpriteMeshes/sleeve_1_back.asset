@@ -469,28 +469,24 @@ MonoBehaviour:
   m_BindPoses:
   - bindPose:
       e00: -0.7565507
-      e01: 0.6539353
+      e01: -0.6539353
       e02: 0
-      e03: 0
-      e10: -0.6539353
+      e03: 0.7145756
+      e10: 0.6539353
       e11: -0.7565507
       e12: 0
-      e13: 0
+      e13: 0.030523442
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: 0.7145756
-      e31: 0.030523442
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.85966283
     path: Spine/Right Arm/Right Forearm
     name: Right Forearm
-    color:
-      r: 1
-      g: 0
-      b: 0
-      a: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 0
   m_Blendshapes: []
