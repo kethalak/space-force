@@ -2290,106 +2290,90 @@ MonoBehaviour:
   m_BindPoses:
   - bindPose:
       e00: -0.590587
-      e01: 0.80697405
+      e01: -0.80697405
       e02: 0
-      e03: 0
-      e10: -0.80697405
+      e03: -0.53321975
+      e10: 0.80697405
       e11: -0.590587
       e12: 0
-      e13: 0
+      e13: 0.27615497
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -0.53321975
-      e31: 0.27615497
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1.7649586
     path: Spine/Neck/Head/Right_hair_tail_1
     name: Right_hair_tail_1
-    color:
-      r: 1
-      g: 0
-      b: 0
-      a: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 0
   - bindPose:
       e00: -0.6008654
-      e01: 0.79935026
+      e01: -0.79935026
       e02: 0
-      e03: 0
-      e10: -0.79935026
+      e03: -2.3015234
+      e10: 0.79935026
       e11: -0.6008654
       e12: 0
-      e13: 0
+      e13: 0.2467226
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -2.3015234
-      e31: 0.2467226
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1.7682302
     path: Spine/Neck/Head/Right_hair_tail_1/Right_hair_tail_2
     name: Right_hair_tail_2
-    color:
-      r: 1
-      g: 0.75
-      b: 0
-      a: 1
+    color: {r: 1, g: 0.75, b: 0, a: 1}
     zOrder: 1
   - bindPose:
       e00: -0.3087435
-      e01: 0.9511454
+      e01: -0.9511454
       e02: 0
-      e03: 0
-      e10: -0.9511454
+      e03: -3.7691045
+      e10: 0.9511454
       e11: -0.3087435
       e12: 0
-      e13: 0
+      e13: 1.5548683
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -3.7691045
-      e31: 1.5548683
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1
     path: Spine/Neck/Head/Right_hair_tail_1/Right_hair_tail_2/Right_hair_tail_3
     name: Right_hair_tail_3
-    color:
-      r: 0.5
-      g: 1
-      b: 0
-      a: 1
+    color: {r: 0.5, g: 1, b: 0, a: 1}
     zOrder: 2
   - bindPose:
       e00: 0.9996026
-      e01: 0.028191233
+      e01: -0.028191233
       e02: 0
-      e03: 0
-      e10: -0.028191233
+      e03: 0.17222872
+      e10: 0.028191233
       e11: 0.9996026
       e12: 0
-      e13: 0
+      e13: 0.5524591
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: 0.17222872
-      e31: 0.5524591
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.61
     path: Spine/Neck/Head
     name: Head
-    color:
-      r: 0
-      g: 1
-      b: 0.25
-      a: 1
+    color: {r: 0, g: 1, b: 0.25, a: 1}
     zOrder: 0
   m_Blendshapes: []

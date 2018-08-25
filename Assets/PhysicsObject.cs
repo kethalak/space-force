@@ -9,35 +9,40 @@ public class PhysicsObject : MonoBehaviour
     [SerializeField] private float _mass = 1;
     [SerializeField] private bool _kinematic;
     [SerializeField] private bool _attracts = false;
-
+    [SerializeField] private bool _autoMass;
+    
     private float Mass => _mass;
     private bool IsKinematic => _kinematic;
     private bool Attracts => _attracts;
-    
+    private List<PhysicsObject> _physicsObjects;
     protected Vector3 GravityVector { get; private set; } = new Vector2(0,0f);
     
     private const float GravityScale = 6.674f;
-    
+
     protected virtual void FixedUpdate()
     {
-        var physicsObjects = FindObjectsOfType<PhysicsObject>();
+        if (_autoMass)
+            _mass = transform.localScale.magnitude * 100;
         
-        if(!IsKinematic)
+        if(!IsKinematic) 
             RotateTowardsGravity();
         
         if (!Attracts)
             return;
+
+        if (PlanetManager.Instance.PhysicsObjects == null) return;
         
-        foreach (var obj in physicsObjects)
+        foreach (var obj in PlanetManager.Instance.PhysicsObjects)
         {
             if (obj == this)
                 continue;
 
             if (obj.IsKinematic)
                 continue;
-            
+
             Attract(obj);
-        }     
+        }
+
     }
 
     private void Attract(PhysicsObject obj)

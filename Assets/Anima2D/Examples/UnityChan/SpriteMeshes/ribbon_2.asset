@@ -2681,132 +2681,112 @@ MonoBehaviour:
   m_BindPoses:
   - bindPose:
       e00: -0.40206835
-      e01: -0.9156096
+      e01: 0.9156096
       e02: 0
-      e03: 0
-      e10: 0.9156096
+      e03: 0.05304396
+      e10: -0.9156096
       e11: -0.40206835
       e12: 0
-      e13: 0
+      e13: -0.003039465
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: 0.05304396
-      e31: -0.003039465
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.6588142
     path: Spine/Neck/Head/Ribbon_1
     name: Ribbon_1
-    color:
-      r: 1
-      g: 0
-      b: 0
-      a: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 5
   - bindPose:
       e00: -0.7332013
-      e01: -0.6800116
+      e01: 0.6800116
       e02: 0
-      e03: 0
-      e10: 0.6800116
+      e03: -0.55695546
+      e10: -0.6800116
       e11: -0.7332013
       e12: 0
-      e13: 0
+      e13: 0.23825589
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -0.55695546
-      e31: 0.23825589
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.6013762
     path: Spine/Neck/Head/Ribbon_1/Ribbon_2
     name: Ribbon_2
-    color:
-      r: 1
-      g: 0.75
-      b: 0
-      a: 1
+    color: {r: 1, g: 0.75, b: 0, a: 1}
     zOrder: 4
   - bindPose:
       e00: -0.79878014
-      e01: -0.60162294
+      e01: 0.60162294
       e02: 0
-      e03: 0
-      e10: 0.60162294
+      e03: -1.127963
+      e10: -0.60162294
       e11: -0.79878014
       e12: 0
-      e13: 0
+      e13: 0.35524255
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -1.127963
-      e31: 0.35524255
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.6300015
     path: Spine/Neck/Head/Ribbon_1/Ribbon_2/Ribbon_3
     name: Ribbon_3
-    color:
-      r: 0.5
-      g: 1
-      b: 0
-      a: 1
+    color: {r: 0.5, g: 1, b: 0, a: 1}
     zOrder: 3
   - bindPose:
       e00: -0.19562423
-      e01: 0.9806789
+      e01: -0.9806789
       e02: 0
-      e03: 0
-      e10: -0.9806789
+      e03: 0.55897075
+      e10: 0.9806789
       e11: -0.19562423
       e12: 0
-      e13: 0
+      e13: 1.5219493
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: 0.55897075
-      e31: 1.5219493
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.5999975
     path: Spine/Neck/Head/Ribbon_1/Ribbon_2/Ribbon_3/Ribbon_4
     name: Ribbon_4
-    color:
-      r: 0
-      g: 1
-      b: 0.25
-      a: 1
+    color: {r: 0, g: 1, b: 0.25, a: 1}
     zOrder: 2
   - bindPose:
       e00: -0.9594813
-      e01: -0.28177226
+      e01: 0.28177226
       e02: 0
-      e03: 0
-      e10: 0.28177226
+      e03: -1.9022158
+      e10: -0.28177226
       e11: -0.9594813
       e12: 0
-      e13: 0
+      e13: -0.11811909
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -1.9022158
-      e31: -0.11811909
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.65
     path: Spine/Neck/Head/Ribbon_1/Ribbon_2/Ribbon_3/Ribbon_4/Ribbon_5
     name: Ribbon_5
-    color:
-      r: 0
-      g: 1
-      b: 1
-      a: 1
+    color: {r: 0, g: 1, b: 1, a: 1}
     zOrder: 1
   m_Blendshapes: []

@@ -155,11 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 1.0396693
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1921134944}
@@ -206,11 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 1
-    g: 0.39705884
-    b: 0.39705884
-    a: 1
+  m_Color: {r: 1, g: 0.39705884, b: 0.39705884, a: 1}
   m_Length: 1.1052521
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 332641149}
@@ -256,11 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 0.33
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
@@ -310,7 +298,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2118724, guid: 451f6c52705254abaaa6991a661bc8cc, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -357,12 +345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec17ceaa560940e9bf0dbeafc3a1971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpriteMesh: {fileID: 11488460, guid: 451f6c52705254abaaa6991a661bc8cc, type: 2}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  m_SpriteMesh: {fileID: 11400000, guid: 411e4d2563d1c4c45bebdb9d97c7ac0e, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: 0
@@ -414,12 +398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec17ceaa560940e9bf0dbeafc3a1971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpriteMesh: {fileID: 11435442, guid: d5936667ad7b54a839e6b3a90ab333d9, type: 2}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  m_SpriteMesh: {fileID: 11400000, guid: 00ebb149ba0199d47a078ec69cf373c3, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: 0
@@ -451,7 +431,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2136782, guid: d5936667ad7b54a839e6b3a90ab333d9, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -521,11 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 1
-    g: 0.39705884
-    b: 0.39705884
-    a: 1
+  m_Color: {r: 1, g: 0.39705884, b: 0.39705884, a: 1}
   m_Length: 1.0915134
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 2118692406}
@@ -585,11 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 0.33
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
@@ -636,11 +608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 0.9683809
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1933975363}
@@ -690,7 +658,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2145202, guid: 6d515802c900f493a9b2d46aa10d0fa3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -737,12 +705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec17ceaa560940e9bf0dbeafc3a1971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpriteMesh: {fileID: 11401366, guid: 6d515802c900f493a9b2d46aa10d0fa3, type: 2}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  m_SpriteMesh: {fileID: 11400000, guid: 6c9cdd70e74024c42ba7269339d17728, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: 0
@@ -881,11 +845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.5588235
-    g: 1
-    b: 0.61663294
-    a: 1
+  m_Color: {r: 0.5588235, g: 1, b: 0.61663294, a: 1}
   m_Length: 1.20357
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1197362367}
@@ -935,7 +895,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2141950, guid: 1b5edebcdaef64ccfa93fa8439410eee, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -983,12 +943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec17ceaa560940e9bf0dbeafc3a1971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpriteMesh: {fileID: 11458550, guid: 1b5edebcdaef64ccfa93fa8439410eee, type: 2}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  m_SpriteMesh: {fileID: 11400000, guid: 775b362c27457774cb713e8bc227ed15, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: 0
@@ -1041,11 +997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.5588235
-    g: 1
-    b: 0.61663294
-    a: 1
+  m_Color: {r: 0.5588235, g: 1, b: 0.61663294, a: 1}
   m_Length: 1.1199999
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
@@ -1092,11 +1044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.5588235
-    g: 1
-    b: 0.61663294
-    a: 1
+  m_Color: {r: 0.5588235, g: 1, b: 0.61663294, a: 1}
   m_Length: 1.2315191
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1019462017}
@@ -1143,12 +1091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec17ceaa560940e9bf0dbeafc3a1971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpriteMesh: {fileID: 11458550, guid: 1b5edebcdaef64ccfa93fa8439410eee, type: 2}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  m_SpriteMesh: {fileID: 11400000, guid: 775b362c27457774cb713e8bc227ed15, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: 0
@@ -1174,7 +1118,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2141950, guid: 1b5edebcdaef64ccfa93fa8439410eee, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1255,11 +1199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.5588235
-    g: 1
-    b: 0.61663294
-    a: 1
+  m_Color: {r: 0.5588235, g: 1, b: 0.61663294, a: 1}
   m_Length: 1.315166
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 915689666}
@@ -1305,11 +1245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 1
-    g: 0.39705884
-    b: 0.39705884
-    a: 1
+  m_Color: {r: 1, g: 0.39705884, b: 0.39705884, a: 1}
   m_Length: 0.66
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
@@ -1356,11 +1292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 0.47120526
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 174646246}
@@ -1407,11 +1339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.5588235
-    g: 1
-    b: 0.61663294
-    a: 1
+  m_Color: {r: 0.5588235, g: 1, b: 0.61663294, a: 1}
   m_Length: 0.5731713
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1953262754}
@@ -1588,11 +1516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 1.0811352
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1690911406}
@@ -1639,11 +1563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 1.0811355
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 2105549795}
@@ -1689,11 +1609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.5588235
-    g: 1
-    b: 0.61663294
-    a: 1
+  m_Color: {r: 0.5588235, g: 1, b: 0.61663294, a: 1}
   m_Length: 1
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
@@ -1740,11 +1656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 0.49264705
-    g: 0.6431034
-    b: 1
-    a: 1
+  m_Color: {r: 0.49264705, g: 0.6431034, b: 1, a: 1}
   m_Length: 0.47120523
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 550078673}
@@ -1791,11 +1703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b157d7625014c58bfbad3513f40289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color:
-    r: 1
-    g: 0.39705884
-    b: 0.39705884
-    a: 1
+  m_Color: {r: 1, g: 0.39705884, b: 0.39705884, a: 1}
   m_Length: 0.96674347
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1409284254}

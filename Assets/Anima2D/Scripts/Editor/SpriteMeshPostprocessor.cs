@@ -475,6 +475,8 @@ namespace Anima2D
 						
 						if(spriteMesh && spriteMeshData && spriteMesh.sprite && spriteMeshData.vertices.Length > 0)
 						{
+							textureImporterSO.FindProperty("m_SpriteMeshType").intValue = 1;
+
 							if(textureImporter.spriteImportMode == SpriteImportMode.Multiple)
 							{
 								SerializedProperty spriteProp = null;

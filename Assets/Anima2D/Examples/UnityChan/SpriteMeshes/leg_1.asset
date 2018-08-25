@@ -976,80 +976,68 @@ MonoBehaviour:
   m_BindPoses:
   - bindPose:
       e00: -0.124874905
-      e01: 0.9921726
+      e01: -0.9921726
       e02: 0
-      e03: 0
-      e10: -0.9921726
+      e03: 0.07302855
+      e10: 0.9921726
       e11: -0.124874905
       e12: 0
-      e13: 0
+      e13: -0.05276151
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: 0.07302855
-      e31: -0.05276151
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1.6105696
     path: Right Leg
     name: Right Leg
-    color:
-      r: 1
-      g: 0
-      b: 0
-      a: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 3
   - bindPose:
       e00: -0.21629465
-      e01: 0.97632825
+      e01: -0.97632825
       e02: 0
-      e03: 0
-      e10: -0.97632825
+      e03: -1.5260327
+      e10: 0.97632825
       e11: -0.21629465
       e12: 0
-      e13: 0
+      e13: -0.19503777
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -1.5260327
-      e31: -0.19503777
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 1.1027093
     path: Right Leg/Right Calf
     name: Right Calf
-    color:
-      r: 1
-      g: 0.75
-      b: 0
-      a: 1
+    color: {r: 1, g: 0.75, b: 0, a: 1}
     zOrder: 2
   - bindPose:
       e00: 0.55747837
-      e01: 0.8301916
+      e01: -0.8301916
       e02: 0
-      e03: 0
-      e10: -0.8301916
+      e03: -1.9549037
+      e10: 0.8301916
       e11: 0.55747837
       e12: 0
-      e13: 0
+      e13: 1.7682405
       e20: 0
       e21: 0
       e22: 1
       e23: 0
-      e30: -1.9549037
-      e31: 1.7682405
+      e30: 0
+      e31: 0
       e32: 0
       e33: 1
     boneLength: 0.28
     path: Right Leg/Right Calf/Right Foot
     name: Right Foot
-    color:
-      r: 0.5
-      g: 1
-      b: 0
-      a: 1
+    color: {r: 0.5, g: 1, b: 0, a: 1}
     zOrder: 1
   m_Blendshapes: []
